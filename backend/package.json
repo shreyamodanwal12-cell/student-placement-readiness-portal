@@ -1,0 +1,23 @@
+{
+  "name": "student-placement-readiness-backend",
+  "version": "1.0.0",
+  "description": "Backend foundation for the Student Placement Readiness Portal",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.3",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
